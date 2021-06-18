@@ -19,7 +19,7 @@ int main(void)
 {
 	while (1)
 	{
-		busVoltag  = SimpleKalmanFilter(&voltageFilter, analogRead(0)); // voltage
-		busCurrent = SimpleKalmanFilter(&voltageFilter, analogRead(1)); // current
+		busVoltag  = SimpleKalmanFilter(&voltageFilter, analogRead(0));
+		busCurrent = SimpleKalmanFilter(&voltageFilter, analogRead(1));
 	}
 }
